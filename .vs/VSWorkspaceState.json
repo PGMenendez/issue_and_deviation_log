@@ -1,0 +1,17 @@
+{
+  "ExpandedNodes": [
+    "",
+    "\\client",
+    "\\client\\id-log-v3",
+    "\\client\\id-log-v3\\public",
+    "\\client\\id-log-v3\\src",
+    "\\client\\id-log-v3\\src\\components",
+    "\\server",
+    "\\server\\config",
+    "\\server\\controllers",
+    "\\server\\models",
+    "\\server\\routes"
+  ],
+  "SelectedNode": "\\client\\id-log-v3\\src\\components\\Edit.js",
+  "PreviewInSolutionExplorer": false
+}
