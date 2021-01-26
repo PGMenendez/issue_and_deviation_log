@@ -11,6 +11,6 @@
     "\\server\\models",
     "\\server\\routes"
   ],
-  "SelectedNode": "\\client\\id-log-v3\\src\\components\\ShowAll.js",
+  "SelectedNode": "\\server\\models\\deviation.model.js",
   "PreviewInSolutionExplorer": false
 }

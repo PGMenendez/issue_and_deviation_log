@@ -4,7 +4,7 @@ const deviationSchema = new mongoose.Schema({
 
 	name: {
 		type: String,
-		required: [true, "Project needs a name"],
+		required: [false, "Project needs a name"],
 		minLength: [3, "name must be longer than 3 characters"]
 	},
 	phase: {
@@ -23,7 +23,7 @@ const deviationSchema = new mongoose.Schema({
 	},
 	bomError: {
 		type: Boolean,
-		required: [true, "indicate if BOM error occured"]
+		required: [false, "indicate if BOM error occured"]
 	},
 	job: {
 		type: String,
@@ -50,13 +50,16 @@ const deviationSchema = new mongoose.Schema({
 	},
 	burdenedLabor: {
 		type: String,
-		required: [true, "Project needs a name"],
+		required: [false, "Project needs a name"],
 		minLength: [1, "name must be longer than 1 character"]
 	},
 	notes: {
 		type: String,
 		
 	},
+	serial: {
+		type: String,
+    },
 
 }, { timestamps: true });
 
