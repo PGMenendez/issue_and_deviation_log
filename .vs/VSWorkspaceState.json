@@ -3,14 +3,11 @@
     "",
     "\\client",
     "\\client\\id-log-v3",
-    "\\client\\id-log-v3\\src",
-    "\\client\\id-log-v3\\src\\components",
     "\\server",
     "\\server\\config",
     "\\server\\controllers",
-    "\\server\\models",
     "\\server\\routes"
   ],
-  "SelectedNode": "\\client\\id-log-v3\\src\\App.js",
+  "SelectedNode": "\\client\\id-log-v3\\src",
   "PreviewInSolutionExplorer": false
 }
