@@ -6,5 +6,5 @@ module.exports = function (app) {
     app.post('/api/deviations', deviationController.create);
     app.get('/api/deviations/:id', deviationController.findOne);
     app.put('/api/deviations/:id', deviationController.update);
-    app.delete('/api/deviations/:deviation_id', deviationController.findAll);
+    app.delete('/api/deviations/:deviations_id', deviationController.delete);
 }

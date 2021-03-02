@@ -2,7 +2,7 @@ const deviation = require('../models/deviation.model');
 console.log('controller accessed');
 module.exports = {
     findAll: (req, res) => {
-        deviation.find().sort('name')
+        deviation.find().sort({serial: 'descending'})
             .then((allDeviation) => res.json(allDeviation))
             .catch((err) => res.json({ message: "An error has happened in findAll.", error: err }));
     },
@@ -26,8 +26,8 @@ module.exports = {
             .catch((err) => res.json({ message: "An error has happened in update.", error: err }));
     },
     delete: (req, res) => {
-        console.log(req.params.deviation_id);
-        deviation.findByIdAndDelete(req.params.pirate_id)
+        console.log(req.params.deviations_id);
+        deviation.findByIdAndDelete(req.params.deviations_id)
             .then((successMsg) => res.json(successMsg))
             .catch((err) => res.json({ message: "An error has happened in delete.", error: err }));
     },
